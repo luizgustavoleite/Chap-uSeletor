@@ -1,0 +1,39 @@
+body {
+  background-image: url(../images/background.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1 {
+  padding-top: 60px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+  font-family: "Cinzel", serif;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 60px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+  font-family: "Josefin Sans", sans-serif;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.underline {
+  border-bottom: 1px solid whitesmoke;
+}
+
+img {
+  display: block;
+  margin: 0 auto 0 auto;
+  position: relative;
+  top: 50px;
+}
